@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#ffe5ef">
+<title>Para mi bb hermosa 💗</title>
+<style>
+:root{--pink:#f58ab2;--rose:#d9578c;--pale:#fff3f7;--deep:#71364f;--white:#fffafd;--shadow:0 12px 35px #b85c7c20}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Trebuchet MS",system-ui,sans-serif;color:var(--deep);background:linear-gradient(160deg,#fff7fa,#ffe7f0 55%,#fff8fb);overflow-x:hidden}
+button{font:inherit;cursor:pointer;border:0}
+header{padding:24px 16px 10px;text-align:center;position:relative}
+.mini{font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;color:#bd5d84}
+h1{font-family:Georgia,serif;font-weight:normal;font-size:clamp(2.2rem,7vw,4.2rem);line-height:1.08;margin:12px 0;color:#c34d80}
+h1 span{color:#f17da8}
+.subtitle{max-width:620px;margin:0 auto;color:#87536a;line-height:1.7}
+nav{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;padding:18px 12px}
+nav a{color:#9d4c70;text-decoration:none;background:#ffffffc9;border:1px solid #f5c4d6;border-radius:999px;padding:9px 14px;font-size:.92rem}
+main{max-width:1050px;margin:auto;padding:10px 16px 50px}
+.hero{background:#ffffffb8;border:1px solid #f8cada;border-radius:28px;padding:clamp(22px,5vw,42px);text-align:center;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.big-heart{font-size:3.3rem;animation:pulse 1.8s infinite;display:inline-block}
+.hero h2,.section-title{font-family:Georgia,serif;font-weight:normal;color:#c34d80}
+.hero h2{font-size:clamp(1.6rem,5vw,2.5rem);margin:12px 0}
+.hero p{line-height:1.8;max-width:650px;margin:10px auto}
+.primary,.secondary{border-radius:999px;padding:12px 19px;margin:7px;background:linear-gradient(135deg,#f89bbb,#e96c9c);color:white;box-shadow:0 7px 18px #e96c9c35;transition:transform .2s}
+.primary:hover,.secondary:hover{transform:translateY(-2px)}
+.secondary{background:#fff;color:#bd4e7d;border:1px solid #f2bfd2;box-shadow:none}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:24px}
+.card{background:#fffafc;border:1px solid #f6cad9;border-radius:22px;padding:22px;box-shadow:var(--shadow)}
+.card .emoji{font-size:2rem}
+.card h3{font-family:Georgia,serif;font-weight:normal;color:#bd4e7d;font-size:1.35rem;margin:10px 0}
+.card p{line-height:1.65;color:#87536a}
+.section{margin-top:34px;scroll-margin-top:20px}
+.section-title{text-align:center;font-size:clamp(1.7rem,5vw,2.4rem);margin-bottom:8px}
+.center{text-align:center}
+.letter{background:#fff;border:1px dashed #e99ab8;border-radius:20px;padding:24px;line-height:1.9;max-width:760px;margin:16px auto;white-space:pre-line}
+#message{font-family:Georgia,serif;font-size:1.2rem;color:#ad4772;min-height:65px}
+.question{font-size:1.1rem;line-height:1.6}
+.options{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.options button{background:#fff0f6;border:1px solid #f0b8ce;color:#9e456c;border-radius:14px;padding:11px 15px}
+.options button:hover{background:#ffdfeb}
+#gameResult{min-height:28px;font-weight:bold;color:#bd4e7d;margin-top:12px}
+.surprise{display:none;background:#fff0f6;border-radius:18px;padding:18px;margin-top:14px;line-height:1.7}
+.counter{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:18px 0}
+.counter div{background:#fff;border:1px solid #f4c5d7;border-radius:16px;padding:13px 18px;min-width:85px}
+.counter strong{display:block;font-size:1.7rem;color:#cf5b89}
+.counter span{font-size:.82rem}
+footer{text-align:center;padding:28px 16px 40px;color:#a65a79}
+.floating{position:fixed;bottom:-30px;pointer-events:none;z-index:5;animation:floatUp 5s linear forwards;opacity:.85}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.13)}}
+@keyframes floatUp{to{transform:translateY(-110vh) rotate(25deg);opacity:0}}
+@media(max-width:760px){.grid{grid-template-columns:1fr}.card{padding:20px}.hero{border-radius:22px}nav{gap:6px}nav a{padding:8px 11px;font-size:.85rem}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header>
+  <div class="mini">Un rinconcito hecho con amor 💌</div>
+  <h1>Para ti, <span>mi bb hermosa</span> 💗</h1>
+  <p class="subtitle">De tu Tu Ericsito, con todo el cariño del mundo. Esta pequeña página es un regalo para mi enamorada, para recordarte lo especial que eres para mí.</p>
+</header>
+<nav aria-label="Navegación principal">
+  <a href="#inicio">Inicio</a><a href="#cartita">Cartita 💌</a><a href="#juego">Nuestro juego 🎀</a><a href="#sorpresas">Sorpresas 🎁</a><a href="#tiempo">Nuestro tiempo ⏳</a>
+</nav>
+<main>
+<section class="hero" id="inicio">
+  <div class="big-heart" aria-hidden="true">💗</div>
+  <h2>Hola, mi bb hermosa</h2>
+  <p>Si estás leyendo esto, quiero que recuerdes que eres alguien muy especial para mí. Ojalá esta página te saque una sonrisita, porque está hecha pensando en ti. 🌷</p>
+  <button class="primary" id="heartButton">Toca aquí para recibir amor 💞</button>
+  <p id="message" aria-live="polite">Tengo una cosita bonita que decirte...</p>
+</section>
+
+<section class="grid" aria-label="Detalles de la página">
+  <article class="card"><div class="emoji">💌</div><h3>Una cartita para ti</h3><p>Unas palabras sinceras para recordarte lo mucho que te aprecio.</p><button class="secondary" onclick="document.querySelector('#cartita').scrollIntoView({behavior:'smooth'})">Abrir cartita</button></article>
+  <article class="card"><div class="emoji">🎀</div><h3>Un juego de amor</h3><p>Responde una preguntita y descubre una pequeña sorpresa.</p><button class="secondary" onclick="document.querySelector('#juego').scrollIntoView({behavior:'smooth'})">Jugar juntos</button></article>
+  <article class="card"><div class="emoji">🎁</div><h3>Sorpresas ocultas</h3><p>Hay mensajitos esperando a que los descubras.</p><button class="secondary" onclick="document.querySelector('#sorpresas').scrollIntoView({behavior:'smooth'})">Descubrir</button></article>
+</section>
+
+<section class="section" id="cartita">
+  <h2 class="section-title">Una cartita de Tu Ericsito 💌</h2>
+  <div class="letter">Para mi bb hermosa: 💗
+
+Quería regalarte algo diferente, así que hice este pequeño rinconcito para ti. No hace falta una ocasión especial para recordarte que eres importante para mí.
+
+Gracias por los momentos bonitos, por las sonrisas y por cada recuerdo que vamos construyendo. Deseo que sigamos compartiendo risas, aprendiendo juntos y cuidando este cariño con paciencia, respeto y sinceridad.
+
+Si algún día tienes uno de esos días difíciles, vuelve a esta página y recuerda que mereces cosas bonitas y mucho cariño.
+
+Con todo mi amor,
+Tu Tu Ericsito 🌷</div>
+  <p class="center"><button class="primary" id="readLetter">Volver a leer un mensajito 💗</button></p>
+</section>
+
+<section class="section center" id="juego">
+  <h2 class="section-title">Un mini juego para ti 🎀</h2>
+  <div class="card">
+    <p class="question" id="question">¿Qué detalle hace más especial una relación?</p>
+    <div class="options" id="options">
+      <button data-answer="wrong">Los regalos caros 🎁</button>
+      <button data-answer="right">El cariño y el respeto 💗</button>
+      <button data-answer="wrong">Tener siempre la razón 😅</button>
+    </div>
+    <p id="gameResult" aria-live="polite"></p>
+    <button class="secondary" id="nextQuestion">Otra preguntita ↻</button>
+  </div>
+</section>
+
+<section class="section center" id="sorpresas">
+  <h2 class="section-title">Abre tus sorpresitas 🎁</h2>
+  <p>Elige una cajita, mi bb hermosa. 💕</p>
+  <div class="options">
+    <button class="surpriseButton" data-text="Sorpresa: te mando un abrazo enorme, de esos que hacen que el día se sienta un poquito mejor. 🫂💗">🎁 Cajita 1</button>
+    <button class="surpriseButton" data-text="Sorpresa: nunca olvides que mereces amor bonito, respeto, tranquilidad y muchas razones para sonreír. 🌷">🎀 Cajita 2</button>
+    <button class="surpriseButton" data-text="Sorpresa: mi recuerdo favorito todavía puede no haber pasado… ¡nos quedan muchos momentos bonitos por vivir! ✨">💝 Cajita 3</button>
+  </div>
+  <div class="surprise" id="surpriseText" aria-live="polite"></div>
+</section>
+
+<section class="section center" id="tiempo">
+  <h2 class="section-title">Nuestro tiempo juntos ⏳</h2>
+  <p>Desde el 1 de noviembre de 2025, cada día suma una página más a nuestra historia.</p>
+  <div class="counter" aria-label="Tiempo desde el inicio de la relación">
+    <div><strong id="days">—</strong><span>días</span></div>
+    <div><strong id="hours">—</strong><span>horas de hoy</span></div>
+    <div><strong id="minutes">—</strong><span>minutos</span></div>
+  </div>
+  <p id="timeNote"></p>
+</section>
+</main>
+<footer>
+  <div style="font-size:2rem">♡ 💗 ♡</div>
+  Hecho con mucho cariño por <strong>Tu Ericsito</strong> para su enamorada, <strong>MI bb hermosa</strong>.<br>
+  <span>Un pequeño sitio, un cariño enorme. 🌸</span>
+</footer>
+<script>
+const messages = [
+  "Eres una personita muy especial para mí. 💗",
+  "Ojalá pudiera regalarte una sonrisa cada vez que lo necesites. 🌷",
+  "Gracias por formar parte de mi historia, mi bb hermosa. 💌",
+  "Que nunca te falten razones para sonreír ni personas que te cuiden bonito. 🫶",
+  "Un recordatorio pequeñito: te mando muchísimo cariño. 💞"
+];
+let messageIndex = 0;
+const messageEl = document.getElementById("message");
+function showLove(){messageIndex=(messageIndex+1)%messages.length;messageEl.textContent=messages[messageIndex];makeHearts(9)}
+document.getElementById("heartButton").addEventListener("click",showLove);
+document.getElementById("readLetter").addEventListener("click",()=>{messageIndex=(messageIndex+1)%messages.length;alert(messages[messageIndex])});
+function makeHearts(amount=5){
+  const hearts=["💗","💕","💖","🌸","♡"];
+  for(let i=0;i<amount;i++){
+    const el=document.createElement("span");el.className="floating";el.textContent=hearts[Math.floor(Math.random()*hearts.length)];
+    el.style.left=(Math.random()*96)+"vw";el.style.fontSize=(18+Math.random()*22)+"px";el.style.animationDuration=(3.5+Math.random()*2.5)+"s";
+    document.body.appendChild(el);setTimeout(()=>el.remove(),6200);
+  }
+}
+const questions=[
+ {q:"¿Qué hace más especial una relación?",a:["Los regalos caros 🎁","El cariño y el respeto 💗","Tener siempre la razón 😅"],correct:1,win:"¡Esooo! El cariño, el respeto y hablar con sinceridad son tesoros. 💗"},
+ {q:"¿Qué podemos hacer cuando hay un malentendido?",a:["Escucharnos con calma 👂","Dejar de hablar sin explicar 😶","Culparnos enseguida 🙈"],correct:0,win:"¡Correcto! Escucharnos y conversar nos ayuda a entendernos mejor. 🌷"},
+ {q:"¿Qué recuerdo bonito podemos crear?",a:["Uno que nos haga reír 😂","Uno con detalles sencillos 🌼","¡Cualquiera si lo compartimos con cariño! 💞"],correct:2,win:"¡Sí! Los momentos más bonitos pueden ser muy sencillos. ✨"}
+];
+let qIndex=0;
+function renderQuestion(){const q=questions[qIndex];document.getElementById("question").textContent=q.q;const box=document.getElementById("options");box.innerHTML="";q.a.forEach((answer,i)=>{const b=document.createElement("button");b.textContent=answer;b.addEventListener("click",()=>{document.getElementById("gameResult").textContent=i===q.correct?q.win:"¡Inténtalo otra vez, mi bb hermosa! 💕";if(i===q.correct)makeHearts(5)});box.appendChild(b)});document.getElementById("gameResult").textContent=""}
+document.getElementById("nextQuestion").addEventListener("click",()=>{qIndex=(qIndex+1)%questions.length;renderQuestion()});
+document.querySelectorAll(".surpriseButton").forEach(btn=>btn.addEventListener("click",()=>{const box=document.getElementById("surpriseText");box.textContent=btn.dataset.text;box.style.display="block";makeHearts(6)}));
+function updateCounter(){
+ const start=new Date(2025,10,1,0,0,0);const now=new Date();const diff=now-start;
+ if(diff<0){document.getElementById("days").textContent="0";document.getElementById("timeNote").textContent="¡La cuenta empieza el 1 de noviembre de 2025!";return}
+ document.getElementById("days").textContent=Math.floor(diff/86400000).toLocaleString("es-PE");
+ document.getElementById("hours").textContent=String(now.getHours()).padStart(2,"0");
+ document.getElementById("minutes").textContent=String(now.getMinutes()).padStart(2,"0");
+ document.getElementById("timeNote").textContent="Y todavía quedan muchos momentos por compartir. 💗";
+}
+renderQuestion();updateCounter();setInterval(updateCounter,30000);
+</script>
+</body>
+</html>
